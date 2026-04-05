@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+*.egg-info
+.venv/
+
+# Large data (re-downloadable, see README)
+gdc_data/
+uni2_features/
+
+# Cloned model repos (set up via patches/setup_models.sh)
+SurvPath/
+MCAT/
+MMP/
+
+# Generated data files (re-generable via pipeline)
+patient_index.csv
+survival_labels.csv
+clinical.json
+manifest.tsv
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+*.swp
+*~
+.idea/
+.vscode/
+
+# LaTeX temp files
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
